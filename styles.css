@@ -1,0 +1,186 @@
+body{
+  font-family: 'bebas neue', sans-serif;
+}
+header{
+  background-image:linear-gradient(rgba(0, 0, 0,.6),rgb(0, 0, 0,.6)), url(./images/header-img.jpg);
+  background-size: cover;
+  background-position: 50%;
+  height: 90vh;
+}
+nav img{
+  width: 13%;
+}
+.red-btn{
+  background-color: rgb(229, 9, 20);
+  border-radius: 0.25;
+  color: white;
+  border: 0;
+  padding:5px 17px ;
+}
+.red-btn:hover{
+  background: rgb(193, 17, 25);
+}
+ /*hero-section*/
+.hero-title{
+font-size: 3rem;
+font-weight: 900;
+}
+.hero-firt-p{
+  font-size:1.5rem;
+  font-weight:400;
+}
+.hero-second-p{
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.85rem;
+}
+form{
+  width: 60%;
+
+}
+form #floatinginput{
+  color: white;
+  background: transparent;
+}
+form .form-control:focus{
+  border-color: white;
+  box-shadow: none;
+  border-width: medium;
+}
+form .form-floating>.form-control:focus~label::after{
+  background-color: transparent;
+}
+form .form-floating{
+  width: 50%;
+}
+form #flaotinginput{
+  background: transparent;
+}
+form label{
+  color: rgba(255, 255, 255,.7);
+  margin-left: 10px;
+}
+.get-started-btn{
+  height: 60px;
+  font-size: 1.5rem;
+  padding-right: 25px;
+  padding-right: 25px;
+}
+.get-started-btn::after{
+  content: \276f;
+  margin-left: 5px;
+}
+
+/*enjoy section*/
+.section-title{
+  font-size:3rem;
+  font-weight: 900;
+}
+.section-paragraph{
+  font-size:1.5rem ;
+  font-weight: 400;
+}
+.watch-section,
+.dowload-section{
+border-top: 5px solid #232323;
+border-bottom:5px solid #232323 ;
+}
+.faq-section h3{
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+.question-button{
+  background-color:grey ;
+}
+
+footer{
+  border-top:5px solid #232323 ;
+}
+
+footer p,
+footer a{
+  color: rgba(255, 255, 255,0.7);
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+footer ul{
+  padding-left: 0;
+
+}
+footer li{
+  list-style-type:none;
+}
+footer select{
+
+background: transparent;
+color: #fff;
+padding-left: 40px;
+padding-right: 40px;
+appearance: none;
+border-radius: 5px;
+}
+footer img {
+filter: invert();
+top: 8px;
+left: 12px;
+
+}
+
+footer .arrow-down{
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top:5px solid #fff;
+  top: 15px;
+  right: -115;
+}
+
+
+@media only screen and (max-width:992px) {
+  nav img{
+    width: 17%;
+  }
+
+  .hero-title,.section-title{
+    font-size: 2rem;
+font-weight: 700;
+  }
+  .hero-firt-p,
+  .hero-second-p,
+  .section-paragraph,
+  .faq-section h3 {
+    font-size: 1.125rem;
+  }
+.enjoy-section .container{
+padding-top: 5rem;
+}
+
+}
+
+@media only screen and(max-width:768px){
+  nav img{
+    width:25%;
+
+  }
+
+  header{
+    height: 100vh;
+  }
+
+
+}
+@media only screen and(max-width:576px) {
+nav img{
+  width: 35%;
+}  
+header{
+  height: 110vh;
+}
+form .form-floating{
+  width: 90%;
+}
+
+
+}
